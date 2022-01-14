@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia&family=Lobster&family=Poppins&display=swap');
+
+/* ------------------ 
+   Common CSS
+   ------------------ */
+body{
+    width: 1200px;
+    margin: 0px auto;
+    font-family: 'Poppins', sans-serif;
+}
+ /* ---------------
+ Header CSS
+ ------------------ */
+
+.header{
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-right ul{
+    display: flex;
+    margin-top: 26px;
+}
+.header-right ul li{
+    font-size: 16px;
+    list-style-type: none;
+    margin-right: 26px;
+}
+.header-right ul li:hover{
+    color: #E02C6D;
+    cursor: pointer;
+}
+.header-right ul li:nth-child(5), .header-right ul li:last-child{
+    font-size: 20px;
+}
+
+/* -----------
+Content
+-------------- */
+
+.content{
+    margin-left: 10px;
+    display: flex;
+}
+.content-left{
+    width: 50%;
+    margin-top: 80px;
+}
+.content-left h1{
+    font-size: 52px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.content-left p{
+    margin-bottom: 30px;
+}
+.content-left a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #E02C6D;
+    border-radius: 40px;
+    padding: 10px 30px;
+    border: 1px solid #E02C6D;
+}
+.content-left a:hover{
+    color: #E02C6D;
+    background-color: #fff;
+}
+.content-right{
+    width: 50%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    background-image: url(images/Circle-design.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.content-right img {
+    transition: transform 2s;
+}
+.content-right img:hover{
+    transform: rotate3d(.5, .5, .5, 45deg);
+}
+/* -----------
+Diffrent website Logo 
+---------------------- */
+.website-logo{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px 30px;
+}
+..website-logo img{
+    position: absolute;
+}
+.website-logo img:hover{
+    background-color: gray;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* --------------
+Product Section
+-------------------  */
+.collection{
+    width: 1000px;
+    margin: 0 auto;
+}
+.collection-main-header{
+    text-align: center;
+}
+.collection-last {
+    display: grid;
+    grid-row-gap: 20px;
+    grid-template-columns: repeat(3, 1fr) ;
+}
+.collection-last div {
+    width: 300px;
+    border: 1px solid #fff;
+    height: 480px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px  #aaaaaa;
+}
+.colection-last-img {
+    width: 285px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.collection-last div h2, .collection-last div p {
+    margin: 10px;
+}
+
+/* -------------
+    Footer
+    ---------------  */
+.foother{
+    margin-top: 50px;
+    height: 150px;
+    color: #fff;
+    background-color: #0a0826;
+    display: flex;
+    justify-content: center;
+}
+.foother h1, .foother p{
+    margin: 10px;
+}
