@@ -157,6 +157,9 @@ Product Section
 .review{
     text-align: center;
     margin: 10px;
+    box-shadow: 0px 20px 15px;
+    border-radius: 20px;
+    border: 1px solid #e4dada;
 }
 
 /* -------------
@@ -229,6 +232,7 @@ Product Section
     }
     .collection-last div {
         margin: 0px auto;
+        text-align: center;
     }
     
 }
