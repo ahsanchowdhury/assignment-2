@@ -234,6 +234,9 @@ Product Section
         margin: 0px auto;
         text-align: center;
     }
+    .website-logo{
+        display: none;
+    }
     
 }
 
